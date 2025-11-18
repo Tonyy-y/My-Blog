@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="icon" href="../images/blog_icon.png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <a href="" class="button">Categories&blacktriangledown;</a>
+            <div class="content">
+                <a href="../index.html#university">University</a>
+                <a href="../index.html#technology">Technology</a>
+                <a href="../index.html#gaming">Gaming</a>
+            </div>
+        </div>
+        <a onclick="goToDiv('about')">About</a>
+        <a onclick="goToDiv('contact')">Contact</a>
+    </nav>
+    <header>
+        <h1>My Blog</h1>
+        <p>Welcome to my personal blog!</p>
+    </header>
+    <main>
+        <div class="left_column">
+            <div class="card" id="university">
+                <h2>Faculty of Mathematics and Computer Science Temporarily Relocates to PB Tower</h2>
+                <h5>Published on Nov 13, 2025</h5>
+                <img src="../images/pbtower.jpg" alt="FMI Relocates">
+                <p>Starting with the 2025–2026 academic year, the Faculty of Mathematics and Computer Science will temporarily move to the PB Tower building, located in the Lujerului area. This relocation is necessary due to the renovation and modernization of the current campus in central Bucharest.</p>
+                <p>The renovation work is estimated to last approximately one and a half years. During this period, all educational activities will continue without disruption. The structure of the learning spaces will remain the same, meaning courses, seminars, and laboratories will be held under optimal conditions. All technical equipment and IT infrastructure will be fully transferred to the new building.</p>
+                <p>PB Tower is a modern facility located near the Lujerului and Politehnica metro stations, on Iuliu Maniu Boulevard. The building already hosts several other faculties from the University of Bucharest. It provides spacious classrooms, updated infrastructure, and convenient access to public transportation.</p>
+                <p>You can view photos of the building to get a clearer overview of the learning environment and the benefits offered by this temporary relocation.</p>
+            </div>
+        </div>
+        <div class="right_column">
+            <div class="card" id="about">
+                <h3>About Me</h3>
+                <img src="../images/tony.jpg" alt="An image with me">
+                <p>My name's Tony and I'm a student at the Faculty of Mathematics and Computer Science, University of Bucharest.</p>
+            </div>
+            <div class="card" id="photos">
+                <h3>Some photos (made by me)</h3>
+                <img src="../images/cars1.jpg" alt="Some cars">
+                <img src="../images/cars2.jpg" alt="Some cars">
+                <img src="../images/cars3.jpg" alt="Some cars">
+            </div>
+            <div class="card" id="contact">
+                <h3>Follow Me</h3>
+                <div class="icons">
+                    <a href="https://www.instagram.com/tonyy_exe_/" target="_blank"><img src="../images/instagram_icon.png" alt="Link to my instagram"></a>
+                    <a href="https://github.com/Tonyy-y" target="_blank"><img src="../images/github_icon.png" alt="Link to my GitHub"></a>
+                </div>
+                <p>Stay connected for more updates and articles!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

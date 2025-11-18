@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="icon" href="../images/blog_icon.png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <a href="" class="button">Categories&blacktriangledown;</a>
+            <div class="content">
+                <a href="../index.html#university">University</a>
+                <a href="../index.html#technology">Technology</a>
+                <a href="../index.html#gaming">Gaming</a>
+            </div>
+        </div>
+        <a onclick="goToDiv('about')">About</a>
+        <a onclick="goToDiv('contact')">Contact</a>
+    </nav>
+    <header>
+        <h1>My Blog</h1>
+        <p>Welcome to my personal blog!</p>
+    </header>
+    <main>
+        <div class="left_column">
+            <div class="card" id="technology">
+                <h2>iPhone 17 Launch: What to Expect</h2>
+                <h5>Published on Nov 12, 2025</h5>
+                <img src="../images/iphone17.png" alt="iPhone17: Launch" style="width:100%; height:auto;">
+                <p>The iPhone 17 is one of the most anticipated smartphone releases of the year, and Apple is already generating excitement with hints of major upgrades. Early reports suggest a significant leap forward in performance, design, and AI capabilities.</p>
+                <p>At the heart of the device is expected to be a new A-series chip, offering faster processing speeds, improved efficiency, and better support for advanced machine-learning tasks. This would enable smoother multitasking, faster app performance, and more complex on-device AI features.</p>
+                <p>According to several leaks, the iPhone 17 may also introduce a noticeably thinner design while maintaining structural integrity. Alongside this, battery improvements are rumored to extend usage time without increasing the device’s weight.</p>
+                <p>Camera enhancements are also at the top of the list, with sources claiming better low-light performance, a more powerful zoom system, and upgraded sensors designed to capture more detail with reduced noise. Apple may also introduce new computational photography tools powered by on-device AI.</p>
+                <p>Additionally, the iPhone 17 is expected to refine the Dynamic Island, offer an upgraded display with improved brightness and efficiency, and potentially introduce new satellite communication features.</p>
+                <p>While Apple has not confirmed all the details, the iPhone 17 appears poised to redefine the high-end smartphone experience once again. As the official announcement approaches, more leaks and previews are expected to surface.</p>
+            </div>
+        </div>
+        <div class="right_column">
+            <div class="card" id="about">
+                <h3>About Me</h3>
+                <img src="../images/tony.jpg" alt="An image with me">
+                <p>My name's Tony and I'm a student at the Faculty of Mathematics and Computer Science, University of Bucharest.</p>
+            </div>
+            <div class="card" id="photos">
+                <h3>Some photos (made by me)</h3>
+                <img src="../images/cars1.jpg" alt="Some cars">
+                <img src="../images/cars2.jpg" alt="Some cars">
+                <img src="../images/cars3.jpg" alt="Some cars">
+            </div>
+            <div class="card" id="contact">
+                <h3>Follow Me</h3>
+                <div class="icons">
+                    <a href="https://www.instagram.com/tonyy_exe_/" target="_blank"><img src="../images/instagram_icon.png" alt="Link to my instagram"></a>
+                    <a href="https://github.com/Tonyy-y" target="_blank"><img src="../images/github_icon.png" alt="Link to my GitHub"></a>
+                </div>
+                <p>Stay connected for more updates and articles!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
