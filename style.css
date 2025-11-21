@@ -82,6 +82,14 @@ header p {
     margin-top: 10px;
 }
 
+header p::before {
+    content: "\201D";
+}
+
+header p::after {
+    content: "\201D";
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
