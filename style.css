@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+#home_button {
+    background-color: #088fdd;
+    color: white;
+}
+
+#home_button:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+nav {
+    background-color: #333;
+    font-size: 20px;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+}
+
+.content {
+    background-color: #333;
+    position: absolute;
+    min-width: 144px;
+    box-shadow: 2px 2px 7px 1px black;
+    display: none;
+}
+
+nav a:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .button {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+#login_button {
+    margin-left: auto;
+}
+
+header {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: white;
+    animation: color_change 5s infinite;
+}
+
+header p {
+    font-size: 20px;
+    color: #666;
+    margin-top: 10px;
+}
+
+header p::before {
+    content: "\201D";
+}
+
+header p::after {
+    content: "\201D";
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left_column {
+    flex: 70%;
+    padding-right: 10px;
+}
+
+.right_column {
+    flex: 30%;
+    padding-left: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.099);
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card h5 {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.read_more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #088fdd;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.read_more:hover {
+    background-color: #096092;
+}
+
+.icons img {
+    height: 35px;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+#login_form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+#login_form input[type="text"], #login_form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#login_form input:focus {
+    border-color: #088fdd; 
+    outline: none;
+}
+
+#login_form button {
+    width: 100%;
+    background-color: #088fdd;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#login_form button:hover {
+    background-color: #096092;
+}
+
+#logout_button {
+    width: 100%;
+    background-color: #f44336;;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#logout_button:hover {
+    background-color: #ce2c20;
+}
+
+@keyframes color_change {
+    0% {
+        color: black;
+        text-decoration-color: white;
+    }
+
+    30% {
+        color: #088fdd;
+        text-decoration-color: #088fdd;
+    }
+
+    70% {
+        color: #d80e0e;
+        text-decoration-color: #d80e0e;
+    }
+
+    100% {
+        color: black;
+        text-decoration-color: white;
+    }
+}
+
+@media (max-width: 600px) {
+    .left_column {
+        flex: 100%;
+        padding-right: 0px;
+    }
+
+    .right_column {
+        flex: 100%;
+        padding-left: 0px;
+    }
+}

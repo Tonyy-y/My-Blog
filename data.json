@@ -1,0 +1,60 @@
+{
+    "posts": [
+        {
+            "id": "university",
+            "title": "Faculty of Mathematics and Computer Science Temporarily Relocates to PB Tower",
+            "date": "Nov 11, 2025",
+            "image": "pbtower.jpg",
+            "paragraphs": [
+                "Starting with the 2025-2026 academic year, the Faculty of Mathematics and Computer Science will relocate to PB Tower due to renovation work at the main campus.",
+                "Classes and labs will continue normally, as all equipment and IT facilities will be moved to the new modern building near the Lujerului metro station.",
+                "Starting with the 2025-2026 academic year, the Faculty of Mathematics and Computer Science will temporarily move to the PB Tower building, located in the Lujerului area. This relocation is necessary due to the renovation and modernization of the current campus in central Bucharest.",
+                "The renovation work is estimated to last approximately one and a half years. During this period, all educational activities will continue without disruption. The structure of the learning spaces will remain the same, meaning courses, seminars, and laboratories will be held under optimal conditions. All technical equipment and IT infrastructure will be fully transferred to the new building.",
+                "PB Tower is a modern facility located near the Lujerului and Politehnica metro stations, on Iuliu Maniu Boulevard. The building already hosts several other faculties from the University of Bucharest. It provides spacious classrooms, updated infrastructure, and convenient access to public transportation.",
+                "You can view photos of the building to get a clearer overview of the learning environment and the benefits offered by this temporary relocation."
+            ]
+        },
+        {
+            "id": "technology",
+            "title": "iPhone 17 Launch: What to Expect",
+            "date": "Nov 12, 2025",
+            "image": "iphone17.png",
+            "paragraphs": [
+                "Apple is gearing up for the iPhone 17 unveiling, and rumors are flying about major upgrades — from a faster A-series chip to significant camera improvements.",
+                "Reports also suggest a thinner design, improved battery life, and enhanced AI features for on-device processing. The next-generation iPhone could redefine what we expect from smartphones.",
+                "The iPhone 17 is one of the most anticipated smartphone releases of the year, and Apple is already generating excitement with hints of major upgrades. Early reports suggest a significant leap forward in performance, design, and AI capabilities.",
+                "At the heart of the device is expected to be a new A-series chip, offering faster processing speeds, improved efficiency, and better support for advanced machine-learning tasks. This would enable smoother multitasking, faster app performance, and more complex on-device AI features.",
+                "According to several leaks, the iPhone 17 may also introduce a noticeably thinner design while maintaining structural integrity. Alongside this, battery improvements are rumored to extend usage time without increasing the device's weight.",
+                "Camera enhancements are also at the top of the list, with sources claiming better low-light performance, a more powerful zoom system, and upgraded sensors designed to capture more detail with reduced noise. Apple may also introduce new computational photography tools powered by on-device AI.",
+                "Additionally, the iPhone 17 is expected to refine the Dynamic Island, offer an upgraded display with improved brightness and efficiency, and potentially introduce new satellite communication features.",
+                "While Apple has not confirmed all the details, the iPhone 17 appears poised to redefine the high-end smartphone experience once again. As the official announcement approaches, more leaks and previews are expected to surface."
+            ]
+        },
+        {
+            "id": "gaming",
+            "title": "GTA VI Delayed: What We Know So Far",
+            "date": "Nov 13, 2025",
+            "image": "gta6.jpg",
+            "paragraphs": [
+                "The long-awaited release of GTA VI has faced another delay, leaving fans both excited and frustrated. Rockstar confirmed that the game needs additional time to polish key features.",
+                "While disappointing, the delay suggests the studio is focused on delivering a refined open-world experience rather than rushing development.",
+                "Rockstar Games has officially announced another delay for the highly anticipated GTA VI, leaving fans with mixed emotions. While many were hoping for a 2025 release, the studio confirmed that the game requires additional development time to meet their standards of quality.",
+                "According to Rockstar, several key features — including open-world interactions, AI behavior systems, and next-generation physics — still need further refinement before the game is ready. The team emphasized that they prefer a polished final product rather than pushing out a rushed version.",
+                "This decision aligns with Rockstar's long-standing development philosophy: prioritizing detail, immersion, and player experience over tight deadlines. Previous titles like GTA V and Red Dead Redemption 2 also faced delays but ultimately released as critically acclaimed successes.",
+                "Insiders report that the delay may allow Rockstar to improve environmental realism, expand the map's dynamic events, and enhance character animations. Some rumors also hint at new story content being added during this extended development phase.",
+                "Although disappointing for fans eager to explore Vice City again, the delay signals Rockstar's commitment to delivering a groundbreaking open-world game that pushes the limits of current-gen hardware.",
+                "As we wait for the next official update, analysts expect more details to surface in the coming months — including a revised launch timeline and new gameplay showcases."
+            ]
+        }
+    ],
+    "users": [
+        {
+            "user": "admin", 
+            "password": "0000"
+        },
+        {
+            "user": "tony",
+            "password": "1234"
+        }
+    ]
+}
