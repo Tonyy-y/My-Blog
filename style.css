@@ -23,7 +23,7 @@ body {
 
 nav {
     background-color: #333;
-    font-size: 20px;
+    font-size: clamp(14px, 2.5vw, 22px); 
     display: flex;
 }
 
@@ -33,6 +33,7 @@ nav a {
     padding: 15px 15px;
     transition: 0.5s;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .dropdown a {
@@ -101,6 +102,7 @@ main {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    min-height: 80vh;
 }
 
 .left_column {
